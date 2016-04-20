@@ -62,7 +62,7 @@ public class DodajStudentaGUI extends JFrame {
 		panel_1.setMaximumSize(new Dimension(300, 300));
 		panel_1.setPreferredSize(new Dimension(300, 300));
 		panel_1.setMinimumSize(new Dimension(300, 300));
-		panel_1.setBounds(50, 50, 375, 350);
+		panel_1.setBounds(24, 26, 375, 350);
 		panel.add(panel_1);
 		panel_1.setLayout(null);
 		

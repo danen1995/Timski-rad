@@ -96,6 +96,8 @@ public class StudentiGUI extends JFrame {
 		panel.setLayout(null);
 		
 		JButton btnDodaj = new JButton("DODAJ STUDENTA");
+		btnDodaj.setForeground(Color.BLACK);
+		btnDodaj.setBackground(new Color(135, 206, 250));
 		btnDodaj.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				DodajStudentaGUI d = new DodajStudentaGUI();
@@ -103,24 +105,33 @@ public class StudentiGUI extends JFrame {
 				setVisible(false);
 			}
 		});
-		btnDodaj.setFont(new Font("Tahoma", Font.BOLD, 19));
+		btnDodaj.setFont(new Font("Tahoma", Font.BOLD, 20));
 		btnDodaj.setPreferredSize(new Dimension(345, 310));
 		btnDodaj.setBounds(22, 76, 310, 194);
 		panel.add(btnDodaj);
 		
-		JButton button = new JButton("New button");
-		button.setPreferredSize(new Dimension(345, 310));
-		button.setBounds(22, 287, 310, 194);
-		panel.add(button);
+		JButton btnPretraziStudenta = new JButton("PRETRAZI STUDENTA");
+		btnPretraziStudenta.setForeground(new Color(0, 0, 0));
+		btnPretraziStudenta.setFont(new Font("Tahoma", Font.BOLD, 20));
+		btnPretraziStudenta.setBackground(new Color(135, 206, 250));
+		btnPretraziStudenta.setPreferredSize(new Dimension(345, 310));
+		btnPretraziStudenta.setBounds(22, 287, 310, 194);
+		panel.add(btnPretraziStudenta);
 		
-		JButton button_1 = new JButton("New button");
-		button_1.setPreferredSize(new Dimension(345, 310));
-		button_1.setBounds(342, 76, 310, 194);
-		panel.add(button_1);
+		JButton btnNewButton = new JButton("PRIKAZI STUDENTE");
+		btnNewButton.setForeground(new Color(0, 0, 0));
+		btnNewButton.setFont(new Font("Tahoma", Font.BOLD, 20));
+		btnNewButton.setBackground(new Color(135, 206, 250));
+		btnNewButton.setPreferredSize(new Dimension(345, 310));
+		btnNewButton.setBounds(342, 76, 310, 194);
+		panel.add(btnNewButton);
 		
-		JButton button_2 = new JButton("New button");
-		button_2.setPreferredSize(new Dimension(345, 310));
-		button_2.setBounds(342, 287, 310, 194);
-		panel.add(button_2);
+		JButton btnIzmeni = new JButton("IZMENI ");
+		btnIzmeni.setForeground(new Color(0, 0, 0));
+		btnIzmeni.setFont(new Font("Tahoma", Font.BOLD, 20));
+		btnIzmeni.setBackground(new Color(135, 206, 250));
+		btnIzmeni.setPreferredSize(new Dimension(345, 310));
+		btnIzmeni.setBounds(342, 287, 310, 194);
+		panel.add(btnIzmeni);
 	}
 }
